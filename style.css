@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px rgb(55, 43, 43);
+    position: fixed;
+    background: white;
+    color: black;
+    z-index: 99999999;
+}
+
+header h2 {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    margin-right: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 6px;
+    font-weight: bold;
+    color: black;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+       height: 100vh;
+}
+
+.hero-content {
+    margin-top: 200px;
+    display: flex;
+    width: 1000px;
+}
+
+.hero-text {
+    margin-right: 50px;
+}
+
+.hero-text h1 {
+    margin-bottom: 10px;
+}
+
+.hero-img img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.abt {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.conn {
+     align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.con {
+    display: flex;
+}
+
+.card-ct1 {
+    margin-top: 20px;
+    background: rgb(159, 159, 146);
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+     border-radius: 40%;
+}
+
+.card-ct1 h2 {
+    margin-top: 130px;
+}
+.card-ct h2 {
+    margin-top: 130px;
+}
+
+.card-ct {
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    background: rgb(159, 159, 146);
+    margin: 20px;
+    border-radius: 40%;
+}
+
+
+
+footer {
+    position: relative;
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.article {
+    position: relative;
+    height: 100vh;
+}
+
+.article h2 {
+    text-align: center;
+}
+
+.article-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    margin: 40px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.card-1 img {
+    height: 200px;
+}
+
+.card-2 {
+   margin: 40px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+}
+
+.card-2 img {
+    height: 200px;
+    text-align: center;
+}
+
